@@ -11,7 +11,7 @@ public class LoginApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("LoginApplication.fxml"));
-        stage.setTitle("Login Form");
+        stage.setTitle("Howdy :)");
         stage.setScene(new Scene(root));
         stage.show();
     }

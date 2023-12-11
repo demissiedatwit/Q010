@@ -27,7 +27,7 @@ public class CircleApp extends Application {
         pane.getChildren().add(circle);
 
         Scene scene = new Scene(pane, 200, 200);
-        primaryStage.setTitle("Circle!");
+        primaryStage.setTitle("HOWDY :)");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
